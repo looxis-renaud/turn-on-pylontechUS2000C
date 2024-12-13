@@ -21,9 +21,6 @@ int U_Zell_min = 0;
 long U_Zell_mid = 0;
 int U_Zell_max = 0;
 
-// UART1 für die Verbindung zum Akku
-HardwareSerial Serial1(1);
-
 const long interval = 10000; // Abfrageintervall (10 Sekunden)
 unsigned long previousMillis = 0;
 unsigned long currentMillis = 0;
